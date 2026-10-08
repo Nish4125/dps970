@@ -1,0 +1,17 @@
+From: Sender <sender@unknown-host.org>
+To: student@example.com
+Subject: Document
+Date: Mon, 05 Oct 2026 14:00:00 -0400
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="XYZ"
+
+--XYZ
+Content-Type: text/plain; charset="utf-8"
+
+Please see the attached file.
+--XYZ
+Content-Type: text/plain; charset="utf-8"
+Content-Disposition: attachment; filename="details.txt"
+
+Urgent offer: cheap bonus, a million guarantee. Click here.
+--XYZ--
