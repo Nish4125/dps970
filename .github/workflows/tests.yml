@@ -9,7 +9,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Q1 spam filter
-        run: python -m unittest discover -s spam_filter -v
-      - name: Q2 jug search
-        run: python -m unittest discover -s jug_search -v
+      - name: Activity 1 Q1 spam filter
+        run: python -m unittest discover -s activity_1/spam_filter -v
+      - name: Activity 1 Q2 jug search
+        run: python -m unittest discover -s activity_1/jug_search -v
+      - name: Activity 2 Q1 Connect Four MCTS
+        run: python -m unittest discover -s activity_2/connect_four -v
+      - name: Activity 2 Q2-4 truth tables
+        run: python activity_2/logic/truth_tables.py
